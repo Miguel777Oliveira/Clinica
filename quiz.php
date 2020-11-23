@@ -36,6 +36,7 @@ if(isset($_POST['signaturesubmit'])){
 	allRadios = document.getElementsByName('smoke')
 	var x = 0;
         var y = -4;
+        var z = 2;
      for(x = 0; x < allRadios.length; x++){
 		allRadios[x].onclick = function() {
 		if(booRadio == this){
